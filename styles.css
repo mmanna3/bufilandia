@@ -1,9 +1,13 @@
-.background {
+.background {    
+    /* background-image: linear-gradient(black, black), url("fondo.jpg"); */
+    /* background-blend-mode: saturation; */
     background-image: url("fondo.jpg");
     height: 100vh;
     background-attachment:fixed;
     background-size:cover;
     background-position:center;
+    
+    /* filter: grayscale(90%); */
 }
 
 .contenedor-principal {
@@ -14,6 +18,13 @@
 }
 
 .datos {
-    max-width: 50%;
     flex: 1;
+}
+
+.foto {
+    border-radius: 100%;
+}
+
+.plataforma {
+    margin-bottom: 0px !important;
 }
