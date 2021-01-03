@@ -1,6 +1,6 @@
 .background {    
-    /* background-image: linear-gradient(black, black), url("fondo.jpg"); */
-    /* background-blend-mode: saturation; */
+    /* background-image: linear-gradient(black, black), url("fondo.jpg");
+    background-blend-mode: saturation; */
     background-image: url("fondo.jpg");
     height: 100vh;
     background-attachment:fixed;
@@ -21,10 +21,24 @@
     flex: 1;
 }
 
-.foto {
+.foto {    
     border-radius: 100%;
+    border: solid grey 1px;
+}
+
+.foto-container {
+    /* margin-top: 30px;
+    margin-bottom: 50px !important; */
 }
 
 .plataforma {
     margin-bottom: 0px !important;
 }
+
+.coso {
+    box-shadow: 2px 3px 3px grey;
+    background-color: #e8e8e8;
+}
+
+
+
