@@ -1,0 +1,19 @@
+.background {
+    background-image: url("fondo.jpg");
+    height: 100vh;
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+}
+
+.contenedor-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.datos {
+    max-width: 50%;
+    flex: 1;
+}
