@@ -1,6 +1,11 @@
 :root {
     --color-tipografia: #4a3701;
+    --marron-mas-claro: #baa482;    
   }
+
+body {
+    font-family: 'Xanh Mono', monospace;
+}
 
 .background {    
     /* background-image: linear-gradient(black, black), url("fondo.jpg"); */
@@ -37,14 +42,14 @@
 }
 
 .plataforma {
-    margin-bottom: 0px !important;
+    margin-bottom: 0px !important;    
 }
 
 .caja-plataforma {
     
     /* box-shadow: 2px 3px 3px grey; */
     /* background-color: #e8e8e8; */
-    box-shadow: 2px 3px 3px #baa482;
+    box-shadow: 2px 3px 3px var(--color-tipografia);
     background-color: #fceed9;
 }
 
