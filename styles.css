@@ -1,6 +1,10 @@
+:root {
+    --color-tipografia: #4a3701;
+  }
+
 .background {    
-    /* background-image: linear-gradient(black, black), url("fondo.jpg");
-    background-blend-mode: saturation; */
+    /* background-image: linear-gradient(black, black), url("fondo.jpg"); */
+    /* background-blend-mode: saturation; */
     background-image: url("fondo.jpg");
     /* height: 100%; */
     background-attachment:fixed;
@@ -8,6 +12,7 @@
     background-position:center;
     
     /* filter: grayscale(90%); */
+    color: var(--color-tipografia);
 }
 
 .contenedor-principal {
@@ -23,22 +28,37 @@
 
 .foto {    
     border-radius: 100%;
-    border: solid grey 1px;
+    border: solid var(--color-tipografia) 1px;
 }
 
 .foto-container {
-    /* margin-top: 30px;
-    margin-bottom: 50px !important; */
+    margin-top: 5em;
+    margin-bottom: 5em !important;
 }
 
 .plataforma {
     margin-bottom: 0px !important;
 }
 
-.coso {
-    box-shadow: 2px 3px 3px grey;
-    background-color: #e8e8e8;
+.caja-plataforma {
+    
+    /* box-shadow: 2px 3px 3px grey; */
+    /* background-color: #e8e8e8; */
+    box-shadow: 2px 3px 3px #baa482;
+    background-color: #fceed9;
 }
 
+/* #786a55 */
 
 
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .plataforma {
+        margin-top: 10px;
+    }
+
+    .foto-container {
+        margin-top: 5em;
+        margin-bottom: 10em !important;
+    }
+  }
