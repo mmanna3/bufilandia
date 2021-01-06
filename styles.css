@@ -45,12 +45,18 @@ body {
     margin-bottom: 0px !important;    
 }
 
-.caja-plataforma {
-    
-    /* box-shadow: 2px 3px 3px grey; */
-    /* background-color: #e8e8e8; */
+.caja-datos {
     box-shadow: 2px 3px 3px var(--color-tipografia);
     background-color: #fceed9;
+}
+
+.caja-plataforma {    
+    box-shadow: 2px 3px 3px var(--color-tipografia);
+    background-color: #fceed9;
+}
+
+.caja-plataforma:hover {
+    cursor: pointer;
 }
 
 /* #786a55 */
